@@ -1,0 +1,50 @@
+/* HTML TAbles */
+/* HTML - navy background */
+
+html {
+  background-color: navy;
+}
+Body {
+  background-color: #ffffff;
+  width: 600px;
+  margin: 0% auto;
+  padding: 25px 50px;
+  text-align: center;
+}
+
+/* will chose the most specif selectors rule*/
+ol {
+  text-align: left;
+}
+
+th,
+td {
+  border: 1px solid black;
+}
+
+.row1 > th {
+  color: white;
+  background-color: rgb(10, 10, 10);
+}
+
+.row2> td {background-color;}
+
+.row3 > td {
+  background-color: lightblue;
+}
+
+.row4 > td {
+  background-color: rgb(234, 105, 210);
+}
+
+.row5 > td {background-color: red;}
+
+#poke-table img {width: 150px;
+  font-family: 'Franklin Gothic Medium';
+}
+
+.poke-table td {background: white;}
+
+.pokemon td {text-align: center;
+background: blue; color: white;}
+

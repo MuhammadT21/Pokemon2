@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Tables</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>HTML Tables</h1>
+    <hr />
+    <p>Tables are used in HTML in two ways:</p>
+
+    <ol>
+      <li>To Create visual tables. E.G. schedules, timetables, etc.</li>
+      <li>To align elements horizontally on a page</li>
+    </ol>
+
+    <table>
+      <tr class="row1">
+        <th>Block</th>
+        <th>Time</th>
+        <th>Day1</th>
+        <th>Day2</th>
+      </tr>
+
+      <tr class="row2">
+        <td>Block 1</td>
+        <td>9:00-10:22</td>
+        <td colspan="2">Intro Mechanics</td>
+      </tr>
+
+      <tr class="row3">
+        <td>Block 2</td>
+        <td>10:27-11:49</td>
+        <td colspan="2">Math 10C (IB)</td>
+      </tr>
+
+      <td>Lunch</td>
+      <td colspan="3">11:49-12:34</td>
+      <tr></tr>
+
+      <tr class="row4">
+        <td>Block 3</td>
+        <td>12:34-1:56</td>
+        <td>Social Studies 10-1 (IB)</td>
+        <td>English 10-1(IB)</td>
+      </tr>
+
+      <tr class="row5">
+        <td>Block 4</td>
+        <td>2:01-3:23</td>
+        <td colspan="2">Intro Computer Science</td>
+      </tr>
+    </table>
+
+    <table id="poke-table">
+      <tr class="pokemon">
+        <td colspan="3">my favorite pokemons</td>
+      </tr>
+
+      <tr>
+        <td><img src="image/kyogre.jpg" alt="kyogre" /></td>
+        <td><img src="image/onix.jpg" alt="onix" /></td>
+        <td><img src="image/pokemon.jpg" alt="psyduck" /></td>
+      </tr>
+
+      <tr class="pokemon">
+        <td>Kyorgre</td>
+        <td>Onix</td>
+        <td>Psyduck</td>
+      </tr>
+    </table>
+  </body>
+</html>
